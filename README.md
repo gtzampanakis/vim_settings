@@ -1,8 +1,6 @@
-# .vim
+# vim_settings
 
-## Vim settings
-
-### Installation
+## Installation
 
 To use in Unix, change to your home directory and run
 
