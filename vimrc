@@ -63,7 +63,7 @@ set guioptions-=T
 "endfunction
 
 syntax enable
-colorscheme torte
+colorscheme gtz
 set smartindent
 set clipboard=unnamed
 set gdefault
