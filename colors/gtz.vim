@@ -51,6 +51,6 @@ if has("unix")
 endif
 
 " modifications by gtz
-highlight Comment       ctermfg=8
+highlight Comment       ctermfg=Red
 highlight Preproc       ctermfg=11
 highlight SpecialKey    ctermfg=11
