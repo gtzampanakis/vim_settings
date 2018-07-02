@@ -30,7 +30,8 @@ highlight Type						gui=NONE
 
 " Console
 highlight Normal     ctermfg=LightGrey	ctermbg=Black
-highlight Search     ctermfg=Black	ctermbg=Red	cterm=NONE
+highlight IncSearch     ctermfg=White	ctermbg=Red	cterm=NONE
+highlight Search     ctermfg=White	ctermbg=Magenta	cterm=NONE
 highlight Visual					cterm=reverse
 highlight Cursor     ctermfg=Black	ctermbg=Green	cterm=bold
 highlight Special    ctermfg=Brown
@@ -38,6 +39,8 @@ highlight Comment    ctermfg=Blue
 highlight StatusLine ctermfg=blue	ctermbg=white
 highlight Statement  ctermfg=Yellow			cterm=NONE
 highlight Type						cterm=NONE
+highlight Pmenu      ctermfg=White ctermbg=6
+highlight PmenuSel   ctermfg=White ctermbg=5
 
 " only for vim 5
 if has("unix")
