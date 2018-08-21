@@ -82,6 +82,7 @@ noremap <F7> ggVGy
 "execute pathogen#infect()
 "let g:jedi#popup_on_dot = 0
 
-nnoremap <F3> yiw:vimgrep /\<<C-R>"\>/ **/*py
+nnoremap <F3> yiw:vimgrep /\<<C-R>"\>/ **/*.py
+nnoremap <F9> yiw:vimgrep /\<<C-R>"\>/ **/*.js
 
 nnoremap <F8> ^f;F'"tyi':<C-F>iif filereadable("<C-R>#<Esc>F/lD"tpa.js") \| e <Esc>F"yi"$pa \| else \| e <Esc>pF.C/index.js \| endif<Return>
