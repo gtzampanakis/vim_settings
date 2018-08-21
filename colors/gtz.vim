@@ -40,8 +40,8 @@ highlight StatusLine ctermfg=darkmagenta	ctermbg=white
 highlight StatusLineNC ctermfg=blue	ctermbg=white
 highlight Statement  ctermfg=Yellow			cterm=NONE
 highlight Type						cterm=NONE
-highlight Pmenu      ctermfg=White ctermbg=6
-highlight PmenuSel   ctermfg=White ctermbg=5
+highlight Pmenu   ctermfg=White ctermbg=darkmagenta
+highlight PmenuSel      ctermfg=Black ctermbg=White
 
 " only for vim 5
 if has("unix")
