@@ -77,6 +77,7 @@ set expandtab
 
 inoremap <F4> <ESC>:nohl<CR>a
 nnoremap <F4> :nohl<CR>
+nnoremap <Space><Space> :wa<CR>
 noremap <F7> ggVGy
 
 "execute pathogen#infect()
